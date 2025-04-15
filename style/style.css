@@ -1,0 +1,96 @@
+@font-face {
+    font-family: "Outfit";
+    src: url("./fonts/Outfit.ttf")format("truetype");
+    font-weight:normal;
+    font-style:normal;
+}
+
+*,
+::before,
+::after{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+@media screen and (max-width:375px) {
+    body{
+        background-color: hsl(212, 45%, 89%);
+        font-family: "Outfit", sans-serif;
+        text-align: center;
+        /* font-size: small; */
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    main{
+        background-color:  hsl(0, 0%, 100%);
+        border-radius: 10px;
+        padding: 10px;
+        /* width: auto; */
+        
+    }
+    div.qr{
+        width: 100%;
+        /* height: auto; */
+        /* border: 1px solid blue; */
+    }
+    img{
+        max-width:250px;
+        border-radius: 5px;
+        /* display: inline-block; */
+    }
+    p{
+        font-size: 15px;
+        margin: 5px 0px;
+        color: hsl(216, 15%, 48%);
+        /* background-color:red; */
+    }
+    h1{
+        font-size: 20px;
+        margin: 10px 0px;
+    }
+}
+
+@media screen and (min-width: 376px){
+    body{
+        background-color: hsl(212, 45%, 89%);
+        font-family: "Outfit", sans-serif;
+        text-align: center;
+        /* font-size: small; */
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    main{
+        background-color:  hsl(0, 0%, 100%);
+        border-radius: 10px;
+        padding: 10px;
+        /* width: auto; */
+        
+    }
+    div.qr{
+        width: 100%;
+        /* height: auto; */
+        /* border: 1px solid blue; */
+    }
+    img{
+        max-width:250px;
+        border-radius: 5px;
+        /* display: inline-block; */
+    }
+    p{
+        font-size: 15px;
+        margin: 5px 0px;
+        color: hsl(216, 15%, 48%);
+    }
+    h1{
+        font-size: 20px;
+        margin: 10px 0px;
+    }
+}
